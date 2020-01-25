@@ -86,38 +86,39 @@ main span {
 }
 
 .cactus {
-
+	cursor: cell;
 }
 
 .camera {
-	
+	cursor: grab;
 }
 
 .drink {
-
+	cursor: help;
 }
 
 .pineapple {
-
+	cursor: none;
 }
 
 .plane {
-
+	cursor: alias;
 }
 
 .shell {
-
+	cursor: move;
 }
 
 .starfish {
-
+	cursor: grabbing;
 }
 
 .sun {
-
+	cursor: zoom-in;
 }
 
 .tree {
+	cursor: not-allowed;
 
 }
 
