@@ -9,7 +9,7 @@ HTML
 CSS
 JavaScript
 
-### Installation, etc
+### Installation
 CD to the location of your choice, and then git clone. 
 
 ### License
