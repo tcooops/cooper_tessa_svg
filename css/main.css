@@ -1,9 +1,15 @@
+@charset "UTF-8";
 
 h2 {
-	font-family: 'Bebas Neue', 'Helvetica', sans-serif;
+	font-family: 'Gilda Display', serif;
 	font-size: 60px;
 	letter-spacing: 2px;
 	color: white;
+}
+
+
+.transparent-background {
+	background: transparent;
 }
 
 .main-container {
@@ -27,16 +33,30 @@ h2 {
 .main-footer {
 	margin-top: 40px;
 	width: 980px;
-	height: 170px;
+	height: 400px;
 	background-color: #53a586;
 	display: inline-block;
 }
 
+ul {
+	padding: 10px;
+	font-family: 'Open Sans Condensed', 'Helvetica', sans-serif;
+	font-size: 18px;
+	color: white;
+	list-style: none;
+}
+
 body {
 	color: #444;
-	font-size: 14px;
+	font-size: 20px;
 	padding: 14px;
-	/*** an em is a relative mesaurment set by the font size of the body. in this case, 1 em = 14px ***/
+}
+
+p {
+	font-family: 'Open Sans Condensed', 'Helvetica', sans-serif;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
 }
 
 main span {
@@ -44,20 +64,25 @@ main span {
 	cursor: pointer;
 }
 
-
-/*** * for select all ***/
 .img-wrapper > * {
 	pointer-events: none;
 
 }
 
 .selected {
-	opacity: 50%;
-	background-color: grey;
+	background-image: url("../images/border.png") ;
+	background-size: 222px 222px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	transition: all .5s ease-in;
 }
 
 .selected::before {
-	 
+	 content: '\02D2';
+	 visibility: none;
 } 
 
 #icon-container {
@@ -70,12 +95,20 @@ main span {
 }
 
 
+.svg {
+	opacity: 45%;
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
+
 #bananaLeaf, #bikini, #cactus, #camera, #drink, #pineapple, #plane, #shell, #starfish, #sun, #tree {
 	width: 200px;
 	height: 200px;
 	padding: 20px;
 }
-
 
 .bananaLeaf {
 	cursor: pointer;
@@ -90,6 +123,37 @@ main span {
 }
 
 .camera {
+<<<<<<< HEAD
+	cursor: pointer;
+}
+
+.drink {
+	cursor: grab;
+}
+
+.pineapple {
+ cursor: alias;
+}
+
+.plane {
+	cursor: none;
+}
+
+.shell {
+	cursor: help;
+}
+
+.starfish {
+	cursor: crosshair;
+}
+
+.sun {
+ cursor: cell;
+}
+
+.tree {
+	cursor: pointer;
+=======
 	cursor: grab;
 }
 
@@ -120,33 +184,25 @@ main span {
 .tree {
 	cursor: not-allowed;
 
+>>>>>>> a1ca068569c2d75e00bdb3a0d67174924e05b971
 }
 
 #imagesDIV {
    width: 980px; 
    height: 230px;
    overflow: hidden;
-     display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 20px;
 }
 
 #row {
    width: 980px; 
    height: 230px;
    overflow: hidden;
-     display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-  justify-content: center;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 20px;
+   justify-content: center;
 }
 
-
-#tessa:hover {
-	color: #f54290;
-}
-
-/**************/
-#some-id {
-
-}
