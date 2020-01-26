@@ -123,6 +123,7 @@ main span {
 }
 
 .camera {
+<<<<<<< HEAD
 	cursor: pointer;
 }
 
@@ -152,6 +153,38 @@ main span {
 
 .tree {
 	cursor: pointer;
+=======
+	cursor: grab;
+}
+
+.drink {
+	cursor: help;
+}
+
+.pineapple {
+	cursor: none;
+}
+
+.plane {
+	cursor: alias;
+}
+
+.shell {
+	cursor: move;
+}
+
+.starfish {
+	cursor: grabbing;
+}
+
+.sun {
+	cursor: zoom-in;
+}
+
+.tree {
+	cursor: not-allowed;
+
+>>>>>>> a1ca068569c2d75e00bdb3a0d67174924e05b971
 }
 
 #imagesDIV {
