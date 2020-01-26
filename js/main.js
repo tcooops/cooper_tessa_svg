@@ -36,6 +36,15 @@
 	sunSVG.addEventListener('click', toggleSelected);
 	treeSVG.addEventListener('click', toggleSelected);
 
+	let allSVGs = document.querySelectorAll('.svg')
+
+	function toggleSVG() {
+
+		this.classList.toggle('svg');
+	}
+
+	allSVGs.forEach(item => item.addEventListener("mousemove", toggleSVG));
+
 
 })();
 
