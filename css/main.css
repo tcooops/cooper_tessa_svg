@@ -64,6 +64,8 @@ main span {
 	cursor: pointer;
 }
 
+
+/*** * for select all ***/
 .img-wrapper > * {
 	pointer-events: none;
 
@@ -82,7 +84,6 @@ main span {
 
 .selected::before {
 	 content: '\02D2';
-	 visibility: none;
 } 
 
 #icon-container {
@@ -123,37 +124,6 @@ main span {
 }
 
 .camera {
-<<<<<<< HEAD
-	cursor: pointer;
-}
-
-.drink {
-	cursor: grab;
-}
-
-.pineapple {
- cursor: alias;
-}
-
-.plane {
-	cursor: none;
-}
-
-.shell {
-	cursor: help;
-}
-
-.starfish {
-	cursor: crosshair;
-}
-
-.sun {
- cursor: cell;
-}
-
-.tree {
-	cursor: pointer;
-=======
 	cursor: grab;
 }
 
@@ -183,9 +153,7 @@ main span {
 
 .tree {
 	cursor: not-allowed;
-
->>>>>>> a1ca068569c2d75e00bdb3a0d67174924e05b971
-}
+} 
 
 #imagesDIV {
    width: 980px; 
@@ -205,4 +173,3 @@ main span {
    margin-bottom: 20px;
    justify-content: center;
 }
-
