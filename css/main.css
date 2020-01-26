@@ -84,7 +84,6 @@ main span {
 
 .selected::before {
 	 content: '\02D2';
-	 visibility: none;
 } 
 
 #icon-container {
